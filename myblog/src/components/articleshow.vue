@@ -21,6 +21,9 @@
       return {
       }
     },
+    created() {
+      console.log('22222222222222')
+    },
     computed:{
       Title() {
         return bus.themeData.Title
