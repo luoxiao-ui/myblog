@@ -37,8 +37,6 @@
     },
     mounted() {
       this.getArticle();
-      console.log('1');
-      console.log('2');
     },
     methods: {
       getArticle() {
