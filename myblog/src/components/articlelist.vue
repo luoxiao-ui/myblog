@@ -16,7 +16,7 @@
   <div>
     <span style="margin-right: 10px;">作者：{{item.articleAuthor}}</span>
     <span style="margin-right: 10px;">发布时间：{{item.articleTime | dateChange}}</span>
-    <span style="margin-right: 10px;">点击量：{{item.articleClick}}</span>
+    <span style="margin-right: 10px;">点击：{{item.articleClick}}</span>
   </div>
 </el-card>
 </el-col>
