@@ -37,6 +37,7 @@
     },
     mounted() {
       this.getArticle();
+      console.log('1-2')
       console.log('master');
     },
     methods: {
