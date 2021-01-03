@@ -37,6 +37,7 @@
     },
     mounted() {
       this.getArticle();
+      console.log('1-1分支');
     },
     methods: {
       getArticle() {
