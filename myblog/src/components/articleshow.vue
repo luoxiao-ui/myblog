@@ -13,17 +13,12 @@
 </template>
 
 <script>
-  import request from '../utils/api.js';
   import {bus} from '../Bus.js';
   export default {
     name: "articleShow",
     data() {
       return {
       }
-    },
-    created() {
-      console.log('22222222222222')
-      console.log('111111111111111111')
     },
     computed:{
       Title() {
